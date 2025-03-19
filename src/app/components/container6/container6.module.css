@@ -1,0 +1,105 @@
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem 0;
+    color: rgb(0, 0, 0);
+    gap: 2rem;
+}
+
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.avaliacao h2,
+.avaliacao p {
+    margin: 0;
+}
+
+.avaliacaoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap; /* Permite que os cards quebrem linha em telas menores */
+}
+
+.cardAvaliation1,
+.cardAvaliation2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35rem;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffacbc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    gap: 1rem;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.cardAvaliation1 img,
+.cardAvaliation2 img {
+    width: 5rem;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 50%; /* Deixa as imagens redondas */
+}
+
+.cardAvaliation1 p,
+.cardAvaliation2 p {
+    text-align: left;
+    flex: 1;
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    line-height: 1.5; /* Melhora o espaçamento entre linhas */
+}
+
+.cardAvaliation1 h3,
+.cardAvaliation2 h3 {
+    margin-top: 0.5rem;
+    text-align: left;
+    font-size: 1.2rem; /* Ajusta o tamanho do título */
+    font-weight: bold;
+}
+
+/* Regras de Responsividade */
+@media (max-width: 768px) {
+    .avaliacaoCards {
+        flex-direction: column; /* Empilha os cards verticalmente */
+        gap: 1.5rem; /* Ajusta o espaçamento entre os cards */
+    }
+
+    .cardAvaliation1,
+    .cardAvaliation2 {
+        width: 100%; /* Faz os cards ocuparem toda a largura */
+        height: auto; /* Ajusta a altura automaticamente */
+        flex-direction: column; /* Reorganiza o conteúdo verticalmente */
+        align-items: center; /* Centraliza o conteúdo */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .cardAvaliation1 img,
+    .cardAvaliation2 img {
+        width: 4rem; /* Reduz o tamanho das imagens */
+        margin-bottom: 1rem; /* Adiciona espaçamento abaixo das imagens */
+    }
+
+    .cardAvaliation1 p,
+    .cardAvaliation2 p {
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .cardAvaliation1 h3,
+    .cardAvaliation2 h3 {
+        text-align: center; /* Centraliza o título */
+    }
+}

@@ -1,0 +1,48 @@
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #83ACE6;
+    padding: 3rem 0;
+    color: white;
+}
+
+.weMake P {
+    padding: 2rem;
+}
+
+.makeCards img {
+    width: 20rem;
+    height: 40rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container5 {
+        padding: 2rem 1rem; /* Reduz o padding para telas menores */
+        flex-direction: column; /* Empilha os elementos verticalmente */
+    }
+
+    .we-make {
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .we-make p {
+        padding: 1rem; /* Reduz o padding do parágrafo */
+        font-size: 1rem; /* Ajusta o tamanho da fonte */
+    }
+
+    .makeCards {
+        display: flex;
+        flex-direction: column; /* Empilha as imagens verticalmente */
+        gap: 1rem; /* Adiciona espaçamento entre as imagens */
+        align-items: center; /* Centraliza as imagens */
+    }
+
+    .makeCards img {
+        width: 100%; /* Faz as imagens ocuparem toda a largura disponível */
+        max-width: 300px; /* Define um tamanho máximo */
+        height: auto; /* Mantém a proporção das imagens */
+    }
+}

@@ -32,7 +32,7 @@ const Container = () => {
                 </div>
 
                 <div className={styles.cllRight}>
-                    <img src="https://i.ibb.co/k66Dn6Gg/Captura-de-tela-2025-03-18-142421-removebg-preview.png" alt="App Preview" />
+                    <img src="https://i.ibb.co/BKcFmRzc/download.png" alt="App Preview" />
                 </div>
             </section>
         </div>
