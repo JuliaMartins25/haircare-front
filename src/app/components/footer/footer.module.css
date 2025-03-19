@@ -12,3 +12,14 @@
     width: 12rem;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: row; /* Empilha os elementos verticalmente */
+        gap: 1rem;
+    }
+
+    .storeBadge {
+        width: 10rem; /* Reduz o tamanho das imagens */
+    }
+}

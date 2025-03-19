@@ -19,6 +19,7 @@
     right: 0;
     width: 100%;
     padding: 1rem;
+    background-color: rgba(231, 231, 231, 0.11);
 }
 
 .nav ul {
@@ -85,4 +86,42 @@
 .cllRight img {
     width: 250px;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: row; /* Empilha os itens do menu */
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .inicio {
+        flex-direction: column-reverse; /* Reorganiza os elementos */
+        gap: 2rem;
+    }
+
+    .content h1 {
+        font-size: 2rem; /* Reduz o tamanho do título */
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 1rem; /* Ajusta o tamanho do texto */
+        text-align: center;
+    }
+
+    .downloadButtons {
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .downloadButtons img {
+        width: 8rem; /* Reduz o tamanho dos botões */
+    }
+
+    .cllRight img {
+        width: 100%; /* Ajusta a largura da imagem */
+        max-width: 300px; /* Define um tamanho máximo */
+    }
 }

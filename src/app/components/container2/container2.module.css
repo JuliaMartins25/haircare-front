@@ -87,3 +87,46 @@
 .card3 p {
     font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+    .about1 {
+        font-size: 1rem;
+        padding-top: 2rem; 
+    }
+
+    .about1 p {
+        font-size: 0.6rem;
+    }
+
+    .cardsContainer2 {
+        flex-direction: column; /* Empilha os cards verticalmente */
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem; /* Ajusta o espaçamento entre os cards */
+    }
+
+    .card1, .card2, .card3 {
+        width: 15rem; /* Faz os cards ocuparem toda a largura */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img {
+        width: 8rem; /* Reduz o tamanho das imagens */
+    }
+
+    .card1 h3,
+    .card2 h3,
+    .card3 h3 {
+        text-align: center; /* Centraliza o texto */
+        padding-left: 0; /* Remove o padding lateral */
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p {
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+    }
+}

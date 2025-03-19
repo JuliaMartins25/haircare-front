@@ -16,7 +16,7 @@
     max-width: 80%;
 }
 
-.cll-left img {
+.cllLeft img {
     width: 20rem;
     height: auto;
 }
@@ -38,4 +38,20 @@
     font-size: 1rem;
     line-height: 1.5;
     padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container3 {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        gap: 2rem;
+    }
+
+    .cllLeft img {
+        width: 100%; /* Ajusta a largura da imagem */
+        max-width: 300px; /* Define um tamanho máximo */
+    }
+
+    .texto {
+        text-align: center; /* Centraliza o texto */
+    }
 }

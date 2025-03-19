@@ -1,0 +1,59 @@
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    gap: 4rem;
+}
+
+.about3 {
+    flex: 1;
+    text-align: left;
+}
+
+.about3 h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.about3 p {
+    font-size: 1.2rem;
+    color: #313131;
+    padding-top: 1rem;
+}
+
+.cll-right2 img {
+    width: 350px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .container4 {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        gap: 2rem; /* Adiciona espaçamento entre os elementos */
+        align-items: center; /* Centraliza os elementos */
+    }
+
+    .cllRight2 img {
+        width: 100%; /* Ajusta a largura da imagem */
+        max-width: 300px; /* Define um tamanho máximo */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    .about3 {
+        text-align: center; /* Centraliza o texto */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    .about3 h2 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    .about3 p {
+        font-size: 1rem; /* Ajusta o tamanho do texto */
+    }
+}
