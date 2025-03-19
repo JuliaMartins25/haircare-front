@@ -89,6 +89,12 @@
 }
 
 @media (max-width: 768px) {
+    .cllRight img {
+        width: 15rem;
+        height: auto;
+        max-width: 17rem;
+    }
+
     .nav ul {
         flex-direction: row; /* Empilha os itens do menu */
         align-items: center;
@@ -120,8 +126,5 @@
         width: 8rem; /* Reduz o tamanho dos botões */
     }
 
-    .cllRight img {
-        width: 100%; /* Ajusta a largura da imagem */
-        max-width: 300px; /* Define um tamanho máximo */
-    }
+
 }
