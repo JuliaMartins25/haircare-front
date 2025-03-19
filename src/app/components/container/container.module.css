@@ -1,0 +1,88 @@
+/* Container Background */
+.container {
+    background-image: url(../../assets/back.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+.nav ul li {
+    margin-left: 1rem;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav ul li a:hover {
+    color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+/* Home Section */
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 4rem;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.downloadButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.downloadButtons img {
+    width: 12rem;
+    height: auto;
+}
+
+.cllRight img {
+    width: 250px;
+    height: auto;
+}
