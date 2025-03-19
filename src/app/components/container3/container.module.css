@@ -1,0 +1,41 @@
+/* About Section */
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83ACE6;
+    padding: 3rem 0;
+}
+
+.about2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 80%;
+}
+
+.cll-left img {
+    width: 20rem;
+    height: auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.texto h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem;
+}

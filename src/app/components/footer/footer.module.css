@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background-color: #83ACE6;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.storeBadge {
+    width: 12rem;
+    height: auto;
+}
