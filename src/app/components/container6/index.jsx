@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import styles from "./container6.module.css";
 
 const Container6 = () => {
-    const url = "http://localhost:4000/avaliacao";
+    const url = "https://front-back-bne4.onrender.com/avaliacao";
 
     const [avaliations, setAvaliations] = useState([]);
     const [loading, setLoading] = useState(true);
